@@ -170,13 +170,13 @@ public class Tutorial : MonoBehaviour {
                 + " Play around with the controls to get accustomed to layups. \n\n<b>Make 5 layups in a row.</b>\n";
                 break;
             case 5:
-                dialogueText.text = "Congratulations, you have completed basic training! To fine tune what you have just learned take advantage of the Shootaround mode."
-                + " \n\nThere are still more skills to discover and practice including fade aways, 3-point shots, and etc. but I will leave those up to you."
+                dialogueText.text = "Congratulations, you have completed the basic training! To fine tune what you have just learned, take advantage of the Shootaround mode."
+                + " \n\nThere are still more skills to practice including fade away, 3-point shot, and others, but I will leave those up to you."
                 + " \n\nDuring gameplay, at the bottom of the screen you can click on the trophy button to see the list of achievements. Completing them nets you"
                 + " basketball points (BP). \n\nThere are more ways to gain basketball points (BP) outside of achievements. Each 2-pointer basket is worth 1 BP and each 3-pointer basket is worth 2 BP in shootaround and single player levels."
                 + " \n\nWith more single player levels under way they will require a certain amount of BP to unlock. You can also gain BP from completing single player levels. The higher stars"
                 + " you score in a level the more BP you will acquire. \n\nYou can check how you are stacking up vs. the world by going to leaderboards. There is a leaderboard for 3-Point Shootout as well as one for"
-                + " total basketball points. Make sure to make your game profile public in order to get onto the leaderboard. \n\n Well that is it for now. Press okay to return to main menu\n.";
+                + " total basketball points. Make sure to make your game profile public in order to get onto the leaderboard. \n\n Well that is it for now. Press okay to return to main menu.\n";
                 break;
         }
     }

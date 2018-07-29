@@ -2957,7 +2957,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22492744, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 175
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 22492744, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_SizeDelta.x
@@ -3072,6 +3072,10 @@ Prefab:
     - target: {fileID: 11492742, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11492742, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0.19607843
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
@@ -3829,7 +3833,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22492744, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 175
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 22492744, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_SizeDelta.x
@@ -3935,6 +3939,10 @@ Prefab:
     - target: {fileID: 11492742, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11492742, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0.19607843
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
@@ -8432,7 +8440,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22492744, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 175
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 22492744, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_SizeDelta.x
@@ -8539,6 +8547,10 @@ Prefab:
     - target: {fileID: 11492742, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11492742, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0.19607843
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55f259d5b573dd14395cb4cb46b51ac8, type: 2}

@@ -8,7 +8,7 @@ public class Ball : MonoBehaviour {
     public static int shotAttempts;
 
     public int pointsWorth2;
-    private float downwardForce = -725f;
+    private float downwardForce = -800f;
 	public float forwardForce = 60;
 
     public int tapCounter;
@@ -20,7 +20,7 @@ public class Ball : MonoBehaviour {
     public float distanceDribbled;
 
     public float shootingDelay = 0.1f;
-	private float shootingArc = 1000f;
+	private float shootingArc = 1200f;
 	public float distanceToBasketValue = 1f;
     public float distanceToBasket;
     public float distanceToBasketinFeet;
@@ -341,7 +341,7 @@ public class Ball : MonoBehaviour {
             /*shootingForce = shootingSwipeDirection.magnitude;
             dribblingForce = swipeDirection.magnitude;*/
 
-            shootingForce = shootingSwipeDirection2.magnitude * 2500f;
+            shootingForce = shootingSwipeDirection2.magnitude * 3000f;
             dribblingForce = swipeDirection2.magnitude * 3000f;
 
             //Debug.Log("shootingSwipeDirection: " + shootingSwipeDirection);
@@ -445,7 +445,7 @@ public class Ball : MonoBehaviour {
 					else
 					{
                         //GetComponent<Rigidbody> ().AddRelativeForce (new Vector3(900f, -1*(nShootingSwipeDirection2.x * shootingForce * .8f /** 2f*/), nShootingSwipeDirection2.y * shootingForce * .8f /** 2f*/));
-                        GetComponent<Rigidbody>().AddRelativeForce(new Vector3(875f + shootingForce * .15f, -1 * (nShootingSwipeDirection2.x * shootingForce * .8f /** 2f*/), nShootingSwipeDirection2.y * shootingForce * .8f /** 2f*/));
+                        GetComponent<Rigidbody>().AddRelativeForce(new Vector3(1000f + shootingForce * .15f, -1 * (nShootingSwipeDirection2.x * shootingForce * .8f /** 2f*/), nShootingSwipeDirection2.y * shootingForce * .8f /** 2f*/));
 
                         // Controls backspin of the ball after released for shooting
                         GetComponent<Rigidbody> ().maxAngularVelocity = 30;

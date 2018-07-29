@@ -132,7 +132,6 @@ public class SinglePlayer : MonoBehaviour {
                 {
                     resetOnce2 = false;
                     yield return new WaitForSeconds(2f);
-                    chartBoostAds.ShowCBAd();
                     finalScoreText.text = "You " + playerScore + " - " + opponentScore + " CPU";
                     gameOverPanel.SetActive(true);
                     RewardStars();
@@ -330,7 +329,6 @@ public class SinglePlayer : MonoBehaviour {
         if (endOfGame)
         {
             audioSource.PlayOneShot(buzzer);
-            chartBoostAds.ShowCBAd();
             finalScoreText.text = "You " + playerScore + " - " + opponentScore + " CPU";
             gameOverPanel.SetActive(true);
             RewardStars();
